@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Card.module.css";
 
+
 export default function Card({ name, blurb, rating, emoji,image }) {
   return (
     <article className={styles.card}>

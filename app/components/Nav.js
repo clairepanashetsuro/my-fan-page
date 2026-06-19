@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav style={{ display: "flex", gap: "1000px", marginBottom: "1rem" }}>
+    <nav>
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
     </nav>

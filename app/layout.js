@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body>
         <Nav />
         {children}
-        <footer style={{ marginTop: "3rem", textAlign: "center", color: "#888" }}>
+     <footer style={{ marginTop: "8rem", textAlign: "center", color: "#030a47" }}>
           Built with Next.js 💙
         </footer>
       </body>
